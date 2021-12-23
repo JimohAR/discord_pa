@@ -35,4 +35,4 @@ jobs:
       - name: Run the discord_pa script
         run: |
           ipython ./src/notebook/discord_pa.ipynb
-          python ./src/discord_pa.py
+          echo "done"
