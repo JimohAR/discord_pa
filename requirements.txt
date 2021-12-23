@@ -1,3 +1,2 @@
-requests
-json
-ipython
+requests==2.26.0
+ipython==7.29.0
