@@ -32,5 +32,5 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       # Runs a single command using the runners shell
-#       - name: Run the discord_pa script
-#         run: ipython ./src/notebook/discord_pa.py
+      - name: Run the discord_pa script
+        run: ipython ./src/notebook/discord_pa.py
