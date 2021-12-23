@@ -33,4 +33,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run the discord_pa script
-        run: ipython ./src/notebook/discord_pa.py
+        run: |
+          ipython ./src/notebook/discord_pa.ipynb
+          python ./src/discord_pa.py
