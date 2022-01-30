@@ -33,6 +33,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run the discord_pa script
+        env:
+          ACCOUNT_TOKENS: ${{ secrets.ACCOUNT_TOKENS }}
+          CHANNEL_IDS: ${{ secrets.CHANNEL_IDS }}
         run: |
           ipython ./src/notebook/discord_pa.ipynb
           echo "done"
